@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+body {
+    background-color: #273c75;
+    color: #635064;
+    text-shadow:6px 6px 6px #272e49;
+    margin: 0;
+    font-family:'Cinzel', serif;
+}
+
+.centreimg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.navigation {
+    position: fixed;
+    background-color: rgba(228, 170, 240, 0.5);
+    width: 100%;
+    padding: 10px;
+}
+
+.navigation > .links .link {
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.navigation > .links .link a {
+    color: rgb(14, 4, 4);
+    text-decoration: none;
+    text-align: center;
+}
+
+.call-to-action {
+    background-image: url(http://www.nature-pictures.org/foto_DO_prezentacji/2272_615199e20292f6d01699a97e0613a65d_2.jpg);
+    height: 40em;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action h1, h3 {
+    color: #272e49;
+    text-align: center;
+    margin: 0;
+}
+
+.content {
+    margin: 100px 0px;
+}
+
+.content .tagline {
+    text-align: center;
+    font-size: 2em;
+}
+
+#about .about img {
+    max-width: 300px;
+    height: auto;
+    background-image: center;
+}
+
+#about .about p {
+    font-size: 25px;
+}
+
+
+#portfolio > .portfolio ul {
+    padding-left: 0;
+}
+
+#portfolio > .portfolio ul li {
+    display: inline;
+}
+
+#contact .contact-links {
+    padding: 30px;
+}
+
+#contact .contact-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+}
+
+footer {
+    padding: 15px;
+    background-color: #273c75;
+    text-align: center;
+    color: rgb(201, 117, 117);
+}
